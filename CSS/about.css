@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #fdfdfd;
+    color: #222;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #222;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+}
+
+nav ul li a.active {
+    color: #ff4db8;
+    font-weight: 600;
+}
+
+/* Hero Section */
+.about-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 80px;
+    background: #f9f9f9;
+}
+
+.about-hero .content {
+    max-width: 50%;
+}
+
+.about-hero h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.about-hero p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.about-hero .image img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* Mission and Vision */
+.mission-vision {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 80px;
+    background: white;
+}
+
+.mission, .vision {
+    width: 45%;
+    text-align: center;
+}
+
+.mission h2, .vision h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #ff4db8;
+}
+
+/* Why Choose Us */
+.why-choose-us {
+    padding: 60px 80px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.why-choose-us h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    width: 30%;
+    text-align: center;
+}
+
+.feature img {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.feature h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+/* Call to Action */
+.cta {
+    padding: 50px 80px;
+    text-align: center;
+    background: #ff4db8;
+    color: white;
+}
+
+.cta h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.cta .btn {
+    background: white;
+    color: #ff4db8;
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
